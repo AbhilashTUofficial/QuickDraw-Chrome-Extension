@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  justify-content: center; /* Align the grid horizontally to the center */
+  align-items: center; /* Align the grid vertically to the center */
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.tile {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 220px; /* Set the width of the tiles */
+  height: 220px; /* Set the height of the tiles */
+  position: relative;
+  border-radius: 6px;
+}
+
+.tile h2 {
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text vertically and horizontally */
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Quick Draw",
+    "version": "1.0.0",
+    "description": "",
+    "manifest_version": 3,
+    "author": "Abhilash",
+    "action":{
+        "default_popup": "index.js",
+        "default_title": ""
+    }
+}
