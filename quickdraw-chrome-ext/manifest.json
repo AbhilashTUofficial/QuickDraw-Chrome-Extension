@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "author": "Abhilash",
     "action":{
-        "default_popup": "index.js",
+        "default_popup": "/src/index.tsx",
         "default_title": ""
     }
 }
